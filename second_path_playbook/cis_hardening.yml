@@ -1,0 +1,6 @@
+---
+- name: CIS-hardening task
+  hosts: all
+  become: yes
+  roles:
+    - role: cis_security
